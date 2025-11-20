@@ -8,6 +8,19 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+
+    margin: 0;
+}
+
+.student-home {
+    min-height: 100vh;
+    background-color: rgb(255,255,255);
+    
+    /* Example: Change the layout from centered to standard document flow */
+    display: block; 
+    
+    
+    
 }
 
 
@@ -82,4 +95,148 @@ a { /* remove hyperlink underline */
         
     padding: 0;
     border: none;
+}
+
+
+
+/*removing the bullet, margins, and padding from the ul element */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(1,151,218);
+
+    display: flex;
+    align-items: center; 
+}
+
+.nav-brand{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+
+    padding: 14px 16px;
+}
+
+.nav-link{
+    display: flex;
+    margin-left: auto;
+}
+
+
+.active-link a{
+    background-color: rgb(243,146,35);
+    border-radius: 10px;
+}
+
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+
+    transition: background-color 0.2s ease; 
+}
+
+
+ul li a:hover {
+    background-color: rgb(243,146,34);
+
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Student Home boxes -------------------------*/
+
+
+
+
+/*Boxes layout side by side */
+.dashboard-container {
+    /* A 2-column grid layout */
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* tells it to split it into 2 equal fractions */
+
+
+    grid-gap: 20px; 
+    max-width: 1400px; /* setting the size of the boxes */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding-top: 20px;
+}
+
+
+/*The box styles*/
+.card {
+    background-color: rgb(217,217,217);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*Profile Information */
+.profile-info {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px;
+}
+
+/* Profile icon */
+.profile-header {
+    /* Style for the container holding the user icon */
+    background-color: rgb(217,217,217); 
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+
+    /*center the icon inside the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* You would typically use an image or SVG here */
+    
+
+    border: 3px solid #333;
+    padding: 10px;
+}
+
+.profile-header img {
+    width: 160%; 
+    height: 160%;
+    object-fit: cover;
+    border-radius: 50%; 
+}
+
+
+
+.profile-details p, .stats-section p, .goals-section p, .recommended-action p{
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+
+}
+
+/* Style the headings in the cards */
+.card h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
