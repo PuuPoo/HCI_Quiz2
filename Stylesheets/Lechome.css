@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding-bottom: 1000px;
+}
+
+.nav_items{
+    width: 200px;
+    height: 65px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.prof_pic {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+.prof_pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.2);
+    background-color: darkgray;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+
+.middle_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+    height: 50px;
+}
+
+.filter_icon button{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243,147,35);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border:  none;
+    margin-right: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.filter_icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.search_section{
+    display: flex;
+    margin-right: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgray;
+
+}
+
+.search_section .search_bar{
+    flex: 1;
+    border-radius: 10px;
+    background-color: lightgray;
+    border: none;
+    z-index: 1;
+}
+
+.search_section .search_bar::placeholder{
+    padding-left: 40px;
+    font-size: large;
+}
+
+
+
+.search_section .back_arrow button,
+.search_section .search_icon button{
+    width: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+
+
+.search_section .back_arrow img,
+.search_section .search_icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
