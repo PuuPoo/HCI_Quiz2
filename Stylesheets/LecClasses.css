@@ -65,16 +65,23 @@ body{
     padding-top: 80px;
 }
 
-.main_content .subject_text a{
+.main_content .subject_text_space{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main_content .subject_text_space .subject_text{
     margin-left: 30px;
     font-weight: 700;
     font-size:20px;
     text-decoration: none;
     color: black;
-    display: block;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
+
 
 .middle_section{
     display: flex;
