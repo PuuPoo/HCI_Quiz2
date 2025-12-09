@@ -70,9 +70,13 @@ Before Page:
 ![alt text](Assets/LoginInput.png)
 
 Updated Page: 
+![alt text](Assets/ClassHomeDP.png)
+
+In the Final Project screenshot seen above, the design pattern of input and forms. This was utilized because it perfectly fits our feature needed in our final project. Our final project needed a way for the lecturers to easily find their class when they have the name in mind. This means that I had to implement a way for the user to input the class name and then the output will result in the desired class. This fixes the probblem of HCI inefficiency due to the ability to improve efficiency by minimizing the time it takes for the user to find their desired class when they can easily access the search bar and find it. This will improve user experience by giving them an easier means to access the search bar for any sort of narrowing output to improve efficiency. 
 
 
-
+**Part C**
+https://docs.google.com/document/d/1YvqHlBSVgRDa2DW_pM8QAWcn5qnjE206e-PI9KNrjik/edit?tab=t.0 
 
 https://github.com/PuuPoo/HCI_Quiz2 
 
