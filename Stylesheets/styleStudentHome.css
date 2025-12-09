@@ -125,9 +125,7 @@ ul li a:hover {
     /*center the icon inside the circle */
     display: flex;
     justify-content: center;
-    align-items: center;
-    /* You would typically use an image or SVG here */
-    
+    align-items: center;    
 
     border: 3px solid #333;
     padding: 10px;
