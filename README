@@ -1,1 +1,42 @@
-I blame Agie
+Louis Christian Dharma Panna Wibowo
+2902731990
+
+
+Description of original page(s)
+Description of updated page(s)
+All 6 design pattern implementations (before/after + explanation)
+Evaluation plan table
+Live link
+
+
+
+
+**Part B**
+
+**Design Pattern #1 - Navigation**
+
+Original Page: 
+![alt text](Assets/StudentHome.png)
+
+Updated Page:
+![alt text](Assets/StudentHomeDP.png)
+
+In the Final Project screenshot seen above, the design pattern of Navigation was utilized. This was utilized because it perfectly fits our feature needed in our final project. Since our final project was making a app/website for students and lecturers to see their own performance, forum, classes, and students, we needed to implement a navigation bar on top of the website to ensure students and or lecturers are able to navigate effectively within the website to travel between HTML screens in order to reach their desired information. This solves the problem of cognitive load. This solves it by remove the target audience's need to remember different paths to reach their desired path (example: having to traverse a specific page to reach another page). This will improve user improvement since users will easily be able to navigate easily on the top of the screen without having the need to remember the specific path to reach a specific screen. 
+
+
+**Design Pattern #2 - Layout & Structure**
+Original Page: 
+![alt text](Assets/ClassHome.png)
+
+Updated Page: 
+![alt text](Assets/ClassHomeDP.png)
+
+Clear explanation (3–4 sentences):
+what pattern you used
+why it fits your feature
+what HCI problem it solves
+expected user improvement
+
+ 
+https://github.com/PuuPoo/HCI_Quiz2 
+
